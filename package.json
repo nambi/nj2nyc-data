@@ -2,15 +2,19 @@
   "name": "nj2nyc-data",
   "version": "1.0.0",
   "description": "cli utility for data entry",
-  "main": "index.js",
+  "main": "src/app/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build && node build/test/index.js",
+    "debug-test": "npm run build && node --inspect-brk=9229 build/test/index.js",
+    "build": "rimraf build/ && babel ./ --out-dir build/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "start": "npm run build && node build/src/index.js",
+    "debug-start": "npm run build && node --inspect-brk=9229 build/src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nambi/nj2nyc-data.git"
   },
-  "author": "",
+  "author": "Nambi Adhimoolam",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nambi/nj2nyc-data/issues"
@@ -18,6 +22,11 @@
   "homepage": "https://github.com/nambi/nj2nyc-data#readme",
   "dependencies": {
     "firebase": "^5.5.5",
-    "vorpal": "^1.12.0"
+    "vorpal": "^1.12.0",
+    "rimraf": "^2.6.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
   }
 }

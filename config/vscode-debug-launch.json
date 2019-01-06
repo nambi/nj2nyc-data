@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug App",
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/build/src/index.js",
+            "args": [],
+            "stopOnEntry": true,
+            "preLaunchTask": "npm: build",
+            "localRoot": "${workspaceFolder}",
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceFolder}/build/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug Test",
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/build/test/index.js",
+            "args": [],
+            "stopOnEntry": true,
+            "preLaunchTask": "npm: build",
+            "localRoot": "${workspaceFolder}",
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceFolder}/build/**"
+            ]
+        }
+    ]
+}

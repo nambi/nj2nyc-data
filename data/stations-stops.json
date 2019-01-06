@@ -1,0 +1,242 @@
+[
+    {
+        "value": "SHALKS",
+        "label": "Shalks Corner Road",
+        "cityCode": "PBR",
+        "sequence": 1,
+        "cityName": "Plainsboro"
+    },
+    {
+        "value": "FOXRUN",
+        "label": "Fox Run Apartments",
+        "cityCode": "PBR",
+        "sequence": 2,
+        "cityName": "Plainsboro"
+    },
+    {
+        "value": "PRIMEAD",
+        "label": "Princeton Meadowns",
+        "cityCode": "PBR",
+        "sequence": 3,
+        "cityName": "Plainsboro"
+    },
+    {
+        "value": "DEERCKDR",
+        "label": "Deer Creek Drive",
+        "cityCode": "PBR",
+        "sequence": 4,
+        "cityName": "Plainsboro"
+    },
+    {
+        "value": "GRDAVIDRD",
+        "label": "George Davidson Road",
+        "cityCode": "PBR",
+        "sequence": 5,
+        "cityName": "Plainsboro"
+    },
+    {
+        "value": "ASPEN",
+        "label": "Aspen Apartments",
+        "cityCode": "PBR",
+        "sequence": 6,
+        "cityName": "Plainsboro"
+    },
+    {
+        "value": "RAVENCR",
+        "label": "Scott's Corner (Raven's Crest)",
+        "cityCode": "PBR",
+        "sequence": 7,
+        "cityName": "Plainsboro"
+    },
+    {
+        "value": "GENTRY",
+        "label": "Scott's Corner (Gentry)",
+        "cityCode": "PBR",
+        "sequence": 8,
+        "cityName": "Plainsboro"
+    },
+    {
+        "value": "QUAIL",
+        "label": "Scott's Corner (Quail Ridge)",
+        "cityCode": "PBR",
+        "sequence": 9,
+        "cityName": "Plainsboro"
+    },
+    {
+        "value": "MUNDELI",
+        "label": "Muncheeze Deli & Grill",
+        "cityCode": "EWR",
+        "sequence": 10,
+        "cityName": "East Windsor"
+    },
+    {
+        "value": "130X571",
+        "label": "Rts 130 &571",
+        "cityCode": "EWR",
+        "sequence": 11,
+        "cityName": "East Windsor"
+    },
+    {
+        "value": "ROGMERS",
+        "label": "Roger & Mercer St",
+        "cityCode": "HTN",
+        "sequence": 12,
+        "cityName": "Hightstown"
+    },
+    {
+        "value": "FRABRS",
+        "label": "Franklin & Broad St",
+        "cityCode": "HTN",
+        "sequence": 13,
+        "cityName": "Hightstown"
+    },
+    {
+        "value": "ABBTNDR",
+        "label": "Abbington Drive",
+        "cityCode": "TWR",
+        "sequence": 14,
+        "cityName": "Twin Rivers"
+    },
+    {
+        "value": "QUAD4LL",
+        "label": "Twin Rivers - Quad 4 (LL)",
+        "cityCode": "TWR",
+        "sequence": 15,
+        "cityName": "Twin Rivers"
+    },
+    {
+        "value": "GREENBR",
+        "label": "Greenbriar at Whittingham",
+        "cityCode": "MTP",
+        "sequence": 16,
+        "cityName": "Monroe Township"
+    },
+    {
+        "value": "CONCORD",
+        "label": "Concordia",
+        "cityCode": "MTP",
+        "sequence": 17,
+        "cityName": "Monroe Township"
+    },
+    {
+        "value": "PONDS",
+        "label": "The Ponds",
+        "cityCode": "MTP",
+        "sequence": 18,
+        "cityName": "Monroe Township"
+    },
+    {
+        "value": "CLRBROOK",
+        "label": "Clearbrook",
+        "cityCode": "MTP",
+        "sequence": 19,
+        "cityName": "Monroe Township"
+    },
+    {
+        "value": "PARKRIDE",
+        "label": "Park & Ride",
+        "cityCode": "MTP",
+        "sequence": 20,
+        "cityName": "Monroe Township"
+    },
+    {
+        "value": "ROSSMOR",
+        "label": "Rossmor",
+        "cityCode": "MTP",
+        "sequence": 21,
+        "cityName": "Monroe Township"
+    },
+    {
+        "value": "8APARK",
+        "label": "8A Park & Ride",
+        "cityCode": "SBW",
+        "sequence": 22,
+        "cityName": "South Brunswick"
+    },
+    {
+        "value": "42S8A",
+        "label": "Port Authority (Street)",
+        "cityCode": "NYC",
+        "sequence": 24,
+        "alias": "PABT",
+        "cityName": "New York City"
+    },
+    {
+        "value": "PABTALL",
+        "label": "Port Authority",
+        "cityCode": "NYC",
+        "sudo": true,
+        "cityName": "New York City"
+    },
+    {
+        "value": "PABT",
+        "label": "Port Authority (PABT)",
+        "cityCode": "NYC",
+        "sequence": 23,
+        "alias": "PABT",
+        "cityName": "New York City"
+    },
+    {
+        "value": "42S7A",
+        "label": "42nd St & 7th Ave",
+        "cityCode": "NYC",
+        "sequence": 25,
+        "cityName": "New York City"
+    },
+    {
+        "value": "42S6A",
+        "label": "42nd St & 6th Ave",
+        "cityCode": "NYC",
+        "sequence": 26,
+        "cityName": "NewYork City"
+    },
+    {
+        "value": "42S5A",
+        "label": "42nd St & 5th Ave",
+        "cityCode": "NYC",
+        "sequence": 27,
+        "cityName": "New York City"
+    },
+    {
+        "value": "42SMADA",
+        "label": "42nd St & Madison",
+        "cityCode": "NYC",
+        "sequence": 28,
+        "cityName": "New York City"
+    },
+    {
+        "value": "50SMADA",
+        "label": "50th St & Madison",
+        "cityCode": "NYC",
+        "sequence": 29,
+        "cityName": "New York City"
+    },
+    {
+        "value": "59SMADA",
+        "label": "59th St & Madison",
+        "cityCode": "NYC",
+        "sequence": 30,
+        "cityName": "New York City"
+    },
+    {
+        "value": "42SVANA",
+        "label": "Grand Central Terminal",
+        "cityCode": "NYC",
+        "sequence": 31,
+        "cityName": "New York City"
+    },
+    {
+        "value": "42SLEXA",
+        "label": "42nd St & Lexington",
+        "cityCode": "NYC",
+        "sequence": 32,
+        "cityName": "New York City"
+    },
+    {
+        "value": "42S3A",
+        "label": "42nd St & 3rd Ave",
+        "cityCode": "NYC",
+        "sequence": 33,
+        "cityName": "New York City"
+    }
+]
