@@ -1,3 +1,7 @@
-[
-    {}
-]
+{
+    "fbConfig": {
+        "apiKey": "",
+        "authDomain": "",
+        "projectId": ""
+    }
+}
