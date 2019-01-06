@@ -1,0 +1,33 @@
+{
+    "dayOfService": "MTH_FRI",
+    "endTime": 440,
+    "fromStationCode": "QUAD4LL",
+    "mode": "BUS",
+    "operatorCode": "SUBURBAN",
+    "route": "LINE300",
+    "startTime": 360,
+    "stops": {
+        "ABBTNDR": {
+            "aTime": 370,
+            "dTime": 370,
+            "seq": 2,
+            "stop": true
+        },
+        "PABT": {
+            "aTime": 440,
+            "dTime": 440,
+            "seq": 3,
+            "stop": true
+        },
+        "QUAD4LL": {
+            "aTime": 360,
+            "dTime": 360,
+            "seq": 1,
+            "stop": true
+        }
+    },
+    "toStationCode": "PABT",
+    "tripName": "LINE300_SUBURBAN_BUS_1_QUAD4LL_PABT_EXIT8_MTH_FRI_600_720",
+    "vehicleNumber": "1",
+    "via": "EXIT8"
+}

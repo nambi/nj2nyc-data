@@ -1,0 +1,23 @@
+{
+  "name": "nj2nyc-data",
+  "version": "1.0.0",
+  "description": "cli utility for data entry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nambi/nj2nyc-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nambi/nj2nyc-data/issues"
+  },
+  "homepage": "https://github.com/nambi/nj2nyc-data#readme",
+  "dependencies": {
+    "firebase": "^5.5.5",
+    "vorpal": "^1.12.0"
+  }
+}
